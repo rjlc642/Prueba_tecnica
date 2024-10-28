@@ -1,8 +1,8 @@
 @cucumber
-Feature: el usuario hace pruebas en mercado libre
+Feature: el usuario hace pruebas de entrevista choucair
 
   @empleado
-  Scenario Outline: : El usuario lee el primer correo
+  Scenario Outline: prueba entrevista
     Given Iniciar Test
     And login Admin admin123
     And seleccionar Recruitment
